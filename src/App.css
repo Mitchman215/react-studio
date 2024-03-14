@@ -1,9 +1,26 @@
 /* Add styling for your page here */
 
 .App {
+  display: flex;
+  gap: 2rem;
+}
 
+.bakeryItems {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5px;
 }
 
 .BakeryItem {
-  
+  padding: 0.5rem;
+  background-color: beige;
+  border: 1px solid;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cart {
+  background-color: cadetblue;
+  border-radius: 15px;
+  padding: 0.5rem;
 }
